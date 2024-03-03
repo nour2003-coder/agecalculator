@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/age-group.png"
+    />
+    <script defer src="script.js"></script>
+
+    <title>Age calculator app</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="input">
+        <div class="col">
+          <label id="l1" for="day">Day</label>
+          <input id="day" type="number" placeholder="DD" />
+          <label id="messageerror1" class="hid error" for="day"
+            >This field is required</label
+          >
+          <label id="messageerror4" class="hid error" for="day"
+            >must be valid Day</label
+          >
+        </div>
+        <div class="col">
+          <label id="l2" for="Month">Month</label>
+          <input id="Month" type="number" placeholder="MM" />
+          <label id="messageerror2" class="error hid" for="day"
+            >This field is required</label
+          >
+          <label id="messageerror5" class="error hid" for="day"
+            >must be valid Month</label
+          >
+        </div>
+        <div class="col">
+          <label id="l3" for="Year">Year</label>
+          <input id="Year" type="number" placeholder="YYYY" />
+          <label id="messageerror3" class="error hid" for="day"
+            >This field is required</label
+          >
+          <label id="messageerror6" class="error hid" for="day"
+            >must be valid Year</label
+          >
+        </div>
+      </section>
+      <section class="po" class="btn">
+        <hr />
+        <div class="rel">
+          <button onclick="calcul()">
+            <img src="assets/images/icon-arrow.svg" alt="an arrow" />
+          </button>
+        </div>
+      </section>
+      <section class="resultat">
+        <div class="res">
+          <p id="Yearres" class="purple">--</p>
+          <p>years</p>
+        </div>
+        <div class="res">
+          <p id="monthres" class="purple">--</p>
+          <p>months</p>
+        </div>
+        <div class="res">
+          <p id="daysres" class="purple">--</p>
+          <p>days</p>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.hid {
+  display: none;
+}
+label {
+  font-size: 10px;
+  margin-left: 18px;
+}
+input {
+  font-weight: bolder;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 17px;
+  padding: 10px;
+  border: hsl(0, 0%, 86%) 1px 1px 1px;
+  margin-left: 18px;
+}
+
+.res {
+  display: flex;
+  margin-bottom: -25px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 86%);
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px 15px 100px 15px;
+  -webkit-border-radius: 15px 15px 100px 15px;
+  -moz-border-radius: 15px 15px 100px 15px;
+  padding: 30px;
+}
+
+p {
+  margin-left: 30px;
+}
+hr {
+  color: hsl(0, 0%, 70%);
+}
+.input {
+  display: flex;
+  margin-bottom: 30px;
+  margin-right: 70px;
+}
+img {
+  width: 60px;
+  padding: 10px;
+  background-color: hsl(0, 0%, 8%);
+  border-radius: 50%;
+}
+.rel {
+  position: relative;
+}
+button {
+  position: absolute;
+  right: -25px;
+  top: -40px;
+
+  text-align: center;
+  margin: 15px;
+  background-color: transparent;
+  border: none;
+  width: 60px;
+}
+.resultat {
+  letter-spacing: 0.1px;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-left: -30px;
+  margin-bottom: 20px;
+}
+.purple {
+  color: hsl(259, 100%, 65%);
+}
+.error {
+  color: hsl(0, 100%, 67%);
+}
+@media screen and (max-width: 450px) {
+  .resultat {
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-right: -20px;
+  }
+  label {
+    font-size: 8px;
+  }
+  .input {
+    margin-right: 10px;
+  }
+  .img {
+    background-color: hsl(259, 100%, 65%);
+  }
+  button {
+    position: absolute;
+    left: 120px;
+    top: -40px;
+    margin: 15px;
+    background-color: transparent;
+    width: 30px;
+  }
+  label {
+    margin-left: 18px;
+  }
+  .resultat {
+    font-size: 50px;
+  }
+  .container {
+    max-width: 350px;
+    padding-right: -6px;
+    padding-left: 10px;
+  }
+  p {
+    margin-left: 10px;
+  }
+  input {
+    width: 80px;
+    margin-left: 18px;
+  }
+}
