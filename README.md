@@ -1,7 +1,7 @@
 <h1>🎂 AgeCalculator App 🎉</h1>
 
 <p>Welcome to the Age Calculator App! This simple web application helps you calculate your age based on your birth date.</p>
-<p>live demo: <a href="https://mellow-bonbon-38400d.netlify.app/"></p>
+<a href="https://mellow-bonbon-38400d.netlify.app">live demo</a>
 <h3> 🚀 Features</h3>
 <ul>
 <li> **Easy-to-Use Interface:** Simply enter your birth date, and the app will calculate your age for you.</li>
